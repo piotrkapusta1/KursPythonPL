@@ -11,16 +11,3 @@ print(len(flightConnetions))
 flightConnetions = [ (start, stop) for start in ports for stop in ports if start < stop] 
 print(flightConnetions)
 print(len(flightConnetions))
-
-routes = [ (start, stop) for start in ports for stop in ports]
-print(routes)
-print(len(routes))
- 
-routes = [ (start, stop) for start in ports for stop in ports if start != stop]
-print(routes)
-print(len(routes))
- 
- 
-routes = [ (start, stop) for start in ports for stop in ports if start < stop]
-print(routes)
-print(len(routes))
